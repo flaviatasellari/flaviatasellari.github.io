@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title> About Me </title>
+    
+    <style> 
+    
+    body{
+        background-color: #EFB8A0;
+        margin: 30px;
+    }
+
+    p{
+        font-size:150%;
+    }
+    
+    h1{
+        font-family: 'Verdana';
+        color: #893932;
+        background-color: #EA8078;
+        padding: 10px;
+        margin: 40px;
+        text-align: center;
+    }
+
+    h2{
+        font-family: 'Georgia';
+        color: #E1392C;
+    }
+
+    dt{
+        color: #ff0066;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    a:hover{
+        text-decoration: underline;
+    }
+
+    p::first-letter{
+        font-size: 1.5em;
+    }
+
+    ol{
+        list-style-type: none;
+        counter-reset: dec 4;
+    }
+
+    ol > li::before {
+        counter-increment: dec -1;
+        content: counter(dec) ". "; 
+    }
+
+
+    
+    </style>
+
+</head>
+
+<body>
+
+    <h1> About Flavia Tasellari </h1>
+
+    <p> My name is Flavia and I study Computer Science. I am <b> adventurous</b>, <b> creative </b> and <b> optimistic. </b> </p>
+
+    <h2> My courses this semester </h2>
+
+    <ul>
+        <li> Web Application Development </li>
+        <li> Distributed Algorithms </li>
+        <li> Human Computer Interaction </li>
+    </ul> 
+
+    <h2> My favourite movies </h2>
+
+    <ol>
+        <li> Life is beautiful <a href="https://www.imdb.com/title/tt0118799/?ref_=nv_sr_srsg_0"> (IMDB) </a> </li>
+        <li> The Shawshank Redemption <a href="https://www.imdb.com/title/tt0111161/?ref_=fn_al_tt_1"> (IMDB) </a> </li>
+        <li> Rush Hour <a href="https://www.imdb.com/title/tt0120812/?ref_=nv_sr_srsg_0"> (IMDB) </a> </li>
+        <dl>
+            <dt>Director:</dt>
+            <dd>Brett Ratner</dd>
+            <dt>Actors:</dt>
+            <dd>Jackie Chan, Chris Tucker</dd>
+            <dt>Genre:</dt>
+            <dd>Action, Comedy</dd>
+            <dt>Released date:</dt>
+            <dd>September 18, 1998</dd>
+        </dl>
+    </ol> 
+
+    <h2> My moods </h2>
+
+    <img src="happy.png" alt="me being happy" width=300>
+
+    <img src="sad.png" alt="me being sad" width=300>
+    
+    <h2> Interesting facts about one of my classmates </h2>
+
+    <ul>
+        <li> Sindi Tasellari: She is my identical twin sister. </li>
+    </ul> 
+    
+    <p>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+                src="http://jigsaw.w3.org/css-validator/images/vcss"
+                alt="Valid CSS!">
+        </a>
+    </p>    
+
+
+</body>
+
+</html>
