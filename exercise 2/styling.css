@@ -1,0 +1,29 @@
+body {
+    background-image: url("image.jpg");
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.text {
+    border: 5px green solid;
+    background-color: white;
+}
+
+.heading {
+    border: 5px red solid;
+}
+
+#subheading {
+    border: 5px orange solid;
+}
+
+span{
+    border: 5px purple solid;
+}
+
+.section {
+    border: 5px blue solid;
+    background-color: #E8FBFB;
+    padding: 5px;
+    margin-top: 10px;
+}

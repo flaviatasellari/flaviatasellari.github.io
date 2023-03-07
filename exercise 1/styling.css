@@ -1,0 +1,19 @@
+.text {
+    border: 5px green solid;
+}
+
+.heading {
+    border: 5px red solid;
+}
+
+#subheading {
+    border: 5px orange solid;
+}
+
+span{
+    border: 5px purple solid;
+}
+
+.section {
+    border: 5px blue solid;
+}

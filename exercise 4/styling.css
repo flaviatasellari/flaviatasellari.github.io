@@ -1,0 +1,50 @@
+body {
+    background-image: url("image.jpg");
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.text {
+    border: 10px white solid;
+    background-color: white;
+}
+
+.heading {
+    border: hidden;
+    background-color: #A8F0F0;
+}
+
+.content {
+    float: right;
+}
+    
+#subheading {
+    border: hidden;
+    clear: right;
+    text-align: right;
+    font-size: 14pt;  
+}
+
+span {
+    border-bottom: 2px blue dashed;
+}
+
+.section {
+    border: 4px #C2E9E9 solid;
+    background-color: #E8FBFB;
+    padding: 5px;
+    margin: 10px 0 0;
+    overflow: auto;
+}
+
+img {
+    float: right;
+}
+
+#list {
+    float: left;
+}
+
+.p{
+    float: right;
+}

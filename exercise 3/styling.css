@@ -1,0 +1,40 @@
+body {
+    background-image: url("image.jpg");   
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.text {
+    border: 5px green solid;
+    background-color: white;
+}
+
+.heading {
+    border: 5px red solid;
+}
+
+.content {
+    float: right;
+}
+    
+#subheading {
+    border: 5px orange solid;
+    clear: right;
+    text-align: right;  
+}
+
+span {
+    border: 5px purple solid;
+}
+
+.section {
+    border: 5px blue solid;
+    background-color: #E8FBFB;
+    padding: 5px;
+    margin: 10px 0 0;
+    overflow: auto;
+}
+
+img {
+    float: right;
+}
