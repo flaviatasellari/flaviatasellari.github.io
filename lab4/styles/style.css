@@ -1,0 +1,93 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  width: 100%;
+  background: linear-gradient(
+    to bottom,
+    #1c5380 0%,
+    #1c5380 45%,
+    rgb(231, 230, 230) 45%,
+    rgb(231, 230, 230) 100%
+  );
+}
+
+.info_box {
+  display: flex;
+  justify-content:center; 
+  margin-top:98px;
+  margin-bottom: 50px;  
+} 
+
+.pictures {
+  width: 300px;
+}
+
+.section {
+  width: 450px;
+} 
+
+.logo_section {
+  display: flex; 
+  margin-bottom: 20px;
+} 
+
+#button_section {
+  width:95px;
+  height:45px;
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:white;
+  background-image: linear-gradient(#21669e 33.3333%, #1c5380 66.6667%);
+  margin:auto;
+  margin-right:0;
+  border: 1px solid #0f426c;
+  border-radius: 4px;
+}
+
+.login_button {
+  display: flex;
+  align-items: center; 
+} 
+
+#home_pic {
+  margin-right: 10px;
+}
+
+.text_section {
+  background-image: linear-gradient(white 33.3333%, rgb(231, 230, 230) 66.6667%);
+  border-radius: 7px;
+  padding: 25px 45px;
+} 
+
+h1 {
+  color:#06365f;
+  margin-top:0; 
+}
+
+#iphone_badge {
+  margin-right: 10px;
+} 
+
+.navigation {
+  display: flex;
+  justify-content: center; 
+} 
+
+.navigation a {
+  color: #06365f;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 20px 10px;
+} 
+
+#ig {
+  color:grey;
+}
+
