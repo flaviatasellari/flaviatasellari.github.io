@@ -1,0 +1,73 @@
+.sections {
+    margin-bottom: 50px;
+}
+
+.first_section {
+    border: 1px solid gray;
+    padding: 0 0 30px 5px;
+}
+
+label {
+    margin-left: 20px;
+}
+
+input[type=button] {
+    padding: 10px;
+    margin-left: 35px;
+    border: 1px solid gray;
+}
+
+.second_section {
+    border: 1px solid gray;
+    padding: 0 0 30px 5px;
+}
+
+.subsection {
+    margin-bottom: 30px;
+}
+
+#border_size {
+    padding:3px 7px;
+}
+
+#green_color {
+    background-color: green;
+    width: 70px;
+    height: 60px;
+}
+
+#red_color {
+    background-color: red;
+    width: 70px;
+    height: 60px;
+
+}
+
+#orange_color {
+    background-color: orange;
+    width: 70px;
+    height: 60px;
+}
+
+.border_style{
+    width: 70px;
+    height: 60px;
+
+}
+
+.third_section {
+    border: 1px solid gray;
+    padding: 0 0 30px 5px;
+}
+
+.figure {
+    display: flex; 
+    justify-content: center; 
+    margin-bottom: 50px;
+}
+
+#rectangle {
+    height: 200px;
+    width: 200px;
+    border: 1px solid grey;
+    }

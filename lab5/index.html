@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title> Dynamic Styler</title>
+    <link rel="stylesheet" href="styling.css">
+</head>
+
+<body>
+    <div class="sections">
+
+        <div class="first_section">
+            <h2> Box Size: </h2>
+                <label for="box_width"> Width: </label>
+                <input type="text" id="box_width" name="box_width" > <span> px </span>
+                <label for="box_height"> Height: </label>
+                <input type="text" id="box_height" name="box_height" > <span> px </span>
+                <input type="button" name="box_size" value="Set Width/Height" onclick="setNewBoxSize()">
+        </div>
+
+        <div class="second_section">
+            <h2> Box Border: </h2>
+            <div class="subsection">
+                <label for="border_width"> Border Width: </label>
+                <input type="text" id="border_width" name="border_width" > <span> px </span>
+                <input type="button" id="border_size" name="border_size" value="Set Border Size" onclick="setNewBorderSize()">
+            </div>
+            <div class="subsection">
+                <label for="border_color"> Border Color: </label>
+                <input type="button" id="green_color" name="green_border" value="Green" onclick="setGreenBorder()">
+                <input type="button" id="red_color" name="red_border" value="Red" onclick="setRedBorder()">
+                <input type="button" id="orange_color" name="orange_border" value="Orange" onclick="setOrangeBorder()">
+            </div>
+            <div class="subsection">
+                <label for="border_size"> Border Style: </label>
+                <input type="button" class="border_style" name="solid_border" value="Solid" onclick="setSolidBorder()">
+                <input type="button" class="border_style" name="dotted_border" value="Dotted" onclick="setDottedBorder()">
+                <input type="button" class="border_style" name="dashed_border" value="Dashed" onclick="setDashedBorder()">      
+            </div>
+        </div>
+
+        <div class="third_section">
+            <h2> Box Background Color: </h2>
+            <div>
+                <label for="background_color"> Background Color: </label>
+                <input type="button" id="green_color" name="green_background" value="Green" onclick="setGreenBackground()">
+                <input type="button" id="red_color" name="red_background" value="Red" onclick="setRedBackground()">
+                <input type="button" id="orange_color" name="orange_background" value="Orange" onclick="setOrangeBackground()">
+            </div>
+        </div>
+
+    </div>
+
+    <div class = "figure">
+        <div id="rectangle"> </div>
+    </div>
+
+    <script src="script.js"> </script> 
+
+</body>
+</html>
